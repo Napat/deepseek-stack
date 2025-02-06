@@ -45,7 +45,7 @@ google-chrome http://localhost:3000
 start chrome http://localhost:3000
 ```
 
-Checkout: [Open chat.html](chat.html)
+Checkout: [Open chat.html](example/web/chat.html)
 
 ## Stop
 

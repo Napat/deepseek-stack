@@ -33,6 +33,15 @@ run-cli:
 run-web:
 	@open -a "Google Chrome" http://localhost:15000
 
+## setup-env: setup python virtual environment and install dependencies
+.PHONY: setup-env
+setup-env:
+	@python -m venv .venv
+	@echo "Virtual environment created. Activate it with:"
+	@echo "source .venv/bin/activate  # On Linux/Mac"
+	@echo ".venv\\Scripts\\activate    # On Windows"
+	@echo "Then run: pip install -r requirements.txt"
+
 ## help: helper
 .PHONY: help
 all: help
